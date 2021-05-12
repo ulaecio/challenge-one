@@ -32,10 +32,20 @@ build/
 ### VS Code ###
 .vscode/
 
-.DS_Store
+### Eclipse ###
 .metadata
-metadata/
-.mvn
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 
+### Maven ###
+.mvn
 .mvnw
 .mvnw.cmd

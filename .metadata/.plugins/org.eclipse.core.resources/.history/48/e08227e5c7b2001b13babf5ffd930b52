@@ -1,0 +1,6 @@
+spring.profiles.active=test
+
+spring.jpa.open-in-view=false
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2

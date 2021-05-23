@@ -1,0 +1,5 @@
+package com.ulasoftware.clients.dto;
+
+public class ClientsDTO {
+
+}

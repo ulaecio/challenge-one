@@ -1,0 +1,5 @@
+package com.ulasoftware.clients.resources;
+
+public class CategoryDTO {
+
+}

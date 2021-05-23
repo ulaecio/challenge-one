@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.ulasoftware.clients.dto.ClientDTO;
 import com.ulasoftware.clients.entities.Client;
 import com.ulasoftware.clients.repositories.ClientRepository;
-import com.ulasoftware.clients.services.exceptions.EntityNotFoundException;
 
 @Service
 public class ClientService {
@@ -28,7 +27,7 @@ public class ClientService {
 	@Transactional(readOnly = true)
 	public ClientDTO findById(Long id) {
 		Optional<Client> obj = repository.findById(id);
-		Client entity = obj.orElseThrow(() -> new EntityNotFoundException("Entity not found"));
+		Client entity = obj.get();
 		return new ClientDTO(entity);
 	}
 }

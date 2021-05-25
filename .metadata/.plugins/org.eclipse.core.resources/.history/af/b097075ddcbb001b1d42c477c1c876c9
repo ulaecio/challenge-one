@@ -1,5 +1,0 @@
-package com.ulasoftware.clients.services.exceptions;
-
-public class EntityNotFoundException {
-
-}

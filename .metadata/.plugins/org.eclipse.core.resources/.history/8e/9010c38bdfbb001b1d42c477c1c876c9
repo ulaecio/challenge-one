@@ -1,5 +1,0 @@
-package com.ulasoftware.clients.resources.exceptions;
-
-public class ResourceExceptionHandler {
-
-}

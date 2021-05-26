@@ -10,12 +10,12 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ulasoftware</groupId>
-	<artifactId>clients</artifactId>
+	<artifactId>client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>clients</name>
+	<name>client</name>
 	<description>CRUD de Clientes Ulasoftware</description>
 	<properties>
-		<java.version>15</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
